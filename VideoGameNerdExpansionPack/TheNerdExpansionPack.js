@@ -10,7 +10,7 @@
 	/*									*/
 		
 	/* Adds events to the game 			*/	
-
+		NERDExpPack.addEventSndTrck();
 	/*									*/
 	
 	/* Adds researches to the game		*/
