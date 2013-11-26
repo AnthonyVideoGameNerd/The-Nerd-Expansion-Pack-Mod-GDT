@@ -106,4 +106,6 @@ var NerdExpPack = {};
                     name: "Airplane".localize("game topic"),
                     genreWeightings: [0.9, 1, 0.7, 1, 1, 0.8],
                     audienceWeightings: [1, 1, 0.9]
-                }, {       
+                }]);
+        };
+        /*  */ 
