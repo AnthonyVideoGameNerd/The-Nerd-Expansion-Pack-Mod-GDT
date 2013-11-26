@@ -1,5 +1,58 @@
 var NerdExpPack = {};
-(function () {        
+(function () { 
+         /* Events */
+        NERDExpPack.addEventSndTrck = function () {
+                var eventId = "21212121-0001-0001-0001-ANTHONYVGNERD";
+                
+                var sndTrck = {
+                        id: eventId,
+                        isRandom: true,
+                        maxTriggers: 1,
+                        trigger: function (company) {
+                                return company.currenLevel == 3 && company.isGameProgressBetween(0.5, 0.9);
+                        },
+                        getNotification: function (company) {
+                                var game = company.currentGame;
+
+                                var msg = "Boss, a famous Pop singer approached us and asked us if we wanted to make an epic soundtrack for {0}. If we agree with this, it will generate a lot of hype for us, and alot more money. But it will cost some money to set everything up and make the final deals.".localize().format(game.title);
+
+                                return new Notification({
+                                        sourceId: eventId,
+                                        header: "Make an Epic Soundtrack ".localize(),
+                                        text: msg,
+                                        options: ["Sign the contract", "Don't make it"]
+                                });
+                                
+                        },
+                        },complete: function (decision) {
+                                var company = GameManager.company;
+
+                                if (decision === 0) {
+                                        var n = new Notification({
+                                                header: "Epic Soundtrack".localize(),
+                                                text: "The soundtrack was indeed EPIC! and we even gained some more fans!"
+                                        });
+                                        n.adjustHype(10 + 15 * company.getRandom());
+                                        n.adjustFans(250);
+                                        n.adjustCash(160000, "EPIC SNDTRCK");
+
+                                        company.activeNotifications.addRange(n.split());
+                                        return;
+                                }
+                                if (decision === 1) {
+                                        var n = new Notification({
+                                                header: "No Thanks".localize(),
+                                                text: "You refused the offer and everything went back to normal."
+                                        });
+                                        return;
+                                }
+                        }
+                };
+
+                GDT.addEvent(sndTrck);
+        };
+        
+                
         /* Topics */
         NERDExpPack.addTopic = function () {
                 GDT.addTopics([
