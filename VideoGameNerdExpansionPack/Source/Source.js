@@ -106,6 +106,27 @@ var NerdExpPack = {};
                     name: "Airplane".localize("game topic"),
                     genreWeightings: [0.9, 1, 0.7, 1, 1, 0.8],
                     audienceWeightings: [1, 1, 0.9]
+                }, {
+                    id:"Tower Building",
+                    name: "Tower Building".localize("game topic"),
+                    genreWeightings: [0.6, 0.6, 0.6, 1, 0.9, 1]
+                    audienceWeightings: [1, 1, 0.7]
+                }, {
+                    id:"Construction",
+                    name: "Construction".localize("game topic"),
+                    genreWeightings: [0.6, 0.7, 0.6, 1, 0.8, 1]
+                    audienceWeightings: [0.8, 1, 0.7]
+                }, {
+                    id:"Playing God",
+                    name: "God".localize("game topic"),
+                    genreWeightings: [1, 0.8, 0.7, 1, 1, 1]
+                    audienceWeightings: [0.6, 0.7, 1]
+                }, {
+                    id:"Mining",
+                    name:"Mining".localize("game topic"),
+                    genreWeightings: [0.7, 0.7, 0.6, 1, 1, 1]
+                    audienceWeightings: [0.8, 1, 0.7]
+                }, {
                 }]);
         };
         /*  */ 
