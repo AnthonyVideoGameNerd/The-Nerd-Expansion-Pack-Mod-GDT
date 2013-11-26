@@ -137,15 +137,20 @@ var NerdExpPack = {};
                     genreWeightings: [0.6, 0.6, 0.6, 1, 1, 1],
                     audienceWeightings: [0.9, 1, 0.9]
                 }, {
-                    id:"Crying"
+                    id:"Crying",
                     name:"Crying".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 0.6, 1],
                     audienceWeightings: [0.7, 0.7, 0.7]
                 }, {
-                    id:"Guitar"
+                    id:"Guitar",
                     name:"Guitar".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 1, 1],
                     audienceWeightings: [1, 1, 0.8]
+                }, {
+                    id:"Indie-Horror",
+                    name:"Indie-Horror".localize("game topic"),
+                    genreWeightings: [1, 1, 0.8, 0.8, 0.7, 0.7],
+                    audienceWeightings: [0.6, 0.7, 1]
                 }
                 
                 }]);
