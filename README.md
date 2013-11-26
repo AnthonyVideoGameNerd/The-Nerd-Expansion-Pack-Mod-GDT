@@ -4,8 +4,7 @@ The-Nerd-Expansion-Pack-Mod-GDT
 THE BASE MOD FOR THIS MOD IS: "EXPANSION PACK MOD" BY: DzjengisKhan Website: https://github.com/DzjengisKhan/GDT-Expansion-Pack
 SO A HUGE THANKS TO DzjengisKhan For The Mod!
 
-apljee Gave me all the topics events consoles and researches so far: 11/25/2013
-He also made the source.js file
+So Far 1 EVENT, & 19 TOPICS
 
 This is my mod for game dev tycoon.
 So Far It will include topics, researches, consoles, and Events.
