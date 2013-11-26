@@ -2,7 +2,7 @@
         "id" : "TheNerdExpPack",
         "name" : "The Nerd's Expansion Pack Mod",
         "version":"1.0.0",
-        "author":"AngryVideoGameNerd (Founder & Leader) apljee (Co-Leader & Bug Manager)",
+        "author":"AngryVideoGameNerd (Founder & Leader) apljee (Co-Leader & Idea Maker)",
         "url":"https://github.com/AnthonyVideoGameNerd/The-Nerd-Expansion-Pack-Mod-GDT",
         "description" : "Another Expansion Pack For Game Dev Tycoon.",
         "main" : "./TheNerdExpansionPack.js"
