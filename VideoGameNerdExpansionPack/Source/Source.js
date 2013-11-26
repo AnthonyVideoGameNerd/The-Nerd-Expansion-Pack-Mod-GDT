@@ -185,7 +185,7 @@ var NerdExpPack = {};
 		name: "Motion Control".localize(),
 		v: 10,
 		canResearch: function (company) {
-			return LevelCalculator.getMissionLevel('Gameplay') > 7 //The 'Level Design' level has to 6 or higher
+			return LevelCalculator.getMissionLevel('Gameplay') > 7 //The Gameplay level has to 8 or higher.
 		},
 		category: "Gameplay",
 		categoryDisplayName: "Gameplay".localize()
