@@ -32,12 +32,12 @@ var NerdExpPack = {};
                     id: "Turn-Based Strategy",
                     name: "Turn-Based Strategy".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 1, 0.8],
-                    audienceWeightings: [1, 1, 0.8]
+                    audienceWeightings: [0.7, 0.8, 1]
                 }, {
                     id: "Real-Time Strategy",
                     name: "Real-Time Strategy".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 1, 0.8],
-                    audienceWeightings: [1, 1, 0.8]
+                    audienceWeightings: [0.7, 0.8, 1]
                 }, {       
                      id: "Management",
                     name: "Management".localize("game topic"),
