@@ -127,6 +127,16 @@ var NerdExpPack = {};
                     genreWeightings: [0.7, 0.7, 0.6, 1, 1, 1]
                     audienceWeightings: [0.8, 1, 0.7]
                 }, {
+				    id:"College Sim",
+                    name:"College Sim".localize("game topic"),
+                    genreWeightings: [0.7, 0.7, 0.6, 1, 1, 1]
+                    audienceWeightings: [0.8, 1, 0.7]
+                }, {
+				    id:"Hamster Sim",
+                    name:"Hamster Sim".localize("game topic"),
+                    genreWeightings: [0.7, 0.7, 0.6, 1, 1, 1]
+                    audienceWeightings: [0.8, 1, 0.7]
+                }, {
                 }]);
         };
         /*  */ 
