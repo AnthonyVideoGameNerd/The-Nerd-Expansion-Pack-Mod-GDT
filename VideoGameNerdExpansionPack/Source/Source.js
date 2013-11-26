@@ -151,8 +151,42 @@ var NerdExpPack = {};
                     name:"Indie-Horror".localize("game topic"),
                     genreWeightings: [1, 1, 0.8, 0.8, 0.7, 0.7],
                     audienceWeightings: [0.6, 0.7, 1]
-                }
-                
+                }, {
+                    id:"Heist",
+                    name:"Heist".localize("game topic"),
+                    genreWeightings: [1, 0.8, 0.9, 1, 1, 0.7],
+                    audienceWeightings: [0.6, 0.6, 1]
+                }, {
+                    id:"Police",
+                    name:"Police".localize("game topic"),
+                    genreWeightings: [1, 0.8, 0.9, 1, 1, 0.7],
+                    audienceWeightings: [0.7, 0.7, 1]
+                }, {
+                    id:"D&D Tabletop",
+                    name:"D&D Tabletop".localize("game topic"),
+                    genreWeightings: [0.8, 0.8, 1,],
+                    audienceWeightings: [0.6, 0.6, 1]
+                }, {
+                    id:"Grand Theft",
+                    name:"Grand Theft".localize("game topic"),
+                    genreWeightings: [1, 0.9, 0.7, 1, 0.7, 1]
+                    audienceWeightings: [0.6, 0.6, 1]
+                }, {
+                    id:"Arcade Game"
+                    name:"Arcade".localize("game topic")
+                    genreWeightings: [0.8 ,0.8 ,0.8, 0.8, 0.8, 1]
+                    audienceWeightings: [1, 1, 1]
                 }]);
         };
         /*  */ 
+              GDT.addResearchItem(
+	{
+		id: "Motion Control",
+		name: "Motion Control".localize(),
+		v: 10,
+		canResearch: function (company) {
+			return LevelCalculator.getMissionLevel('Gameplay') > 7 //The 'Level Design' level has to 6 or higher
+		},
+		category: "Gameplay",
+		categoryDisplayName: "Gameplay".localize()
+	});
