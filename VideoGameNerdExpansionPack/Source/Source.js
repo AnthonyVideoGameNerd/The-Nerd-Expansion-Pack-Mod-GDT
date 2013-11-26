@@ -92,12 +92,12 @@ var NerdExpPack = {};
                     genreWeightings: [0.6, 0.6, 0.6, 1, 1, 0.8],
                     audienceWeightings: [0.7, 0.8, 1]
                 }, {       
-                     id: "Management",
+                    id: "Management",
                     name: "Management".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 1, 0.9],
                     audienceWeightings: [1, 1, 0.9]
                 }, {      
-                     id: "Cooking",
+                    id: "Cooking",
                     name: "Cooking".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.8, 1, 1, 0.8],
                     audienceWeightings: [1, 1, 0.8]
