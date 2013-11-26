@@ -5,6 +5,7 @@ THE BASE MOD FOR THIS MOD IS: "EXPANSION PACK MOD" BY: DzjengisKhan Website: htt
 SO A HUGE THANKS TO DzjengisKhan For The Mod!
 
 apljee Gave me all the topics events consoles and researches so far: 11/25/2013
+He also made the source.js file
 
 This is my mod for game dev tycoon.
 So Far It will include topics, researches, consoles, and Events.
