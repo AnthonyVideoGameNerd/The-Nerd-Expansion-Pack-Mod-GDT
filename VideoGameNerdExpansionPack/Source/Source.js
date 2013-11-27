@@ -183,10 +183,32 @@ var NerdExpPack = {};
 	{
 		id: "Motion Control",
 		name: "Motion Control".localize(),
-		v: 10,
+		v: 8,
 		canResearch: function (company) {
-			return LevelCalculator.getMissionLevel('Gameplay') > 7 //The Gameplay level has to 8 or higher.
+			return LevelCalculator.getMissionLevel('Gameplay') > 5 //The Gameplay level has to 6 or higher.
 		},
 		category: "Gameplay",
 		categoryDisplayName: "Gameplay".localize()
 	});
+	      GDT.addResearchItem(
+	      	{
+	      		id:"Basic Holographic Tech",
+	      		name: "Basic Holographic Tech".localize(),
+	      		v: 8,
+	      		canResearch: function (company) {
+	      			return LevelCalculator.getMissionLevel('Gameplay') > 5
+	      		},
+	      		category: "Gameplay",
+	      		categoryDisplayName: "Gameplay".localize()
+	      	});
+	      GDT.addResearchItem(
+	      	{
+	      		id:"Advanced Holograpic Tech",
+	      		name: "Advanced Holographic Tech".localize(),
+	      		v: 10,
+	      		canResearch: function (company) {
+	      			return LevelCalculator.getMissionLevel('Gameplay') > 6
+	      		},
+	      		category: "Gameplay",
+	      		categoryDisplayName: "Gameplay".localize(),
+	      	});
