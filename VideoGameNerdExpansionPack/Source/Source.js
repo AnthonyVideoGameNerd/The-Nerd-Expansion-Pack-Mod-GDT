@@ -54,7 +54,7 @@ var NerdExpPack = {};
         /*  */
                 
         /* Topics */
-        NERDExpPack.addTopic = function () {
+        NerdExpPack.addTopic = function () {
                 GDT.addTopics([
                 {
                     id: "Tower Defence",
