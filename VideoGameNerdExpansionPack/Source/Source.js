@@ -248,3 +248,14 @@ var NerdExpPack = {};
 	      		category: "Gameplay",
 	      		categoryDisplayName: "Gameplay".localize(),
 	      	});
+	      	GDT.addResearchItem(
+	      		{
+	      			id:"4D Graphics"
+	      			name: "4D Graphics".localize(),
+	      			v: 14,
+	      			canResearch: function (company) {
+	      				return LevelCalculator.getMissionLevel('Graphics') > 8
+	      			},
+	      			caregory: "Graphics",
+	      			categoryDisplayName: "Graphics".localize(),
+	      		});
