@@ -265,7 +265,11 @@ var NerdExpPack = {};
                 }]);
         };
         /*  */ 
-              GDT.addResearchItem(
+        
+        /* Researches */
+        ExpPack.addResearch = function () {
+        /* Gameplay */	
+        GDT.addResearchItem(
 	{
 		id: "Motion Control",
 		name: "Motion Control".localize(),
@@ -298,6 +302,7 @@ var NerdExpPack = {};
 	      		category: "Gameplay",
 	      		categoryDisplayName: "Gameplay".localize(),
 	      	});
+	      	/* Graphics */
 	      	GDT.addResearchItem(
 	      		{
 	      			id:"4D Graphics"
