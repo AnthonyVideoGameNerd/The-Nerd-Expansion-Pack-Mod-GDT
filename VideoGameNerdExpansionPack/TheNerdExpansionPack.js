@@ -2,7 +2,7 @@
 	var ready = function () {
 		
 	/* Adds topics to the game 			*/	
-		NERDExpPack.addTopic();
+		NerdExpPack.addTopic();
 	/*									*/	
 	
 	/* Adds platforms to the game 		*/	
@@ -10,11 +10,11 @@
 	/*									*/
 		
 	/* Adds events to the game 			*/	
-		NERDExpPack.addEventSndTrck();
+		NerdExpPack.addEventSndTrck();
 	/*									*/
 	
 	/* Adds researches to the game		*/
-		NERDExpPack.addResearch();
+		NerdExpPack.addResearch();
 	/*									*/
 	};
 
