@@ -187,20 +187,20 @@ var NerdExpPack = {};
                     genreWeightings: {0.8, 0.9, 0.8, 1, 0.7, 1],
                     audienceWeightings: [0.7, 1, 1]
                 }, {
-                	id:"Dinosaurs",
-                	name:"Dinosaurs".localize("game topic"),
-                	genreWeightings: [1, 0.9, 0.8, 0.9, 0.8, 1],
-                	audienceWeightings: [1, 0.9, 0.9]
+                    id:"Dinosaurs",
+                    name:"Dinosaurs".localize("game topic"),
+                    genreWeightings: [1, 0.9, 0.8, 0.9, 0.8, 1],
+                    audienceWeightings: [1, 0.9, 0.9]
                 }, {
-                	id:"Dogfighting",
-                	name:"Dogfighting".localize("game topic"),
-                	genreWeightings: [1, 0.7, 0.7, 1, 1, 1],
-                	audienceWeightings: [0.7, 0.8, 1]
+                    id:"Dogfighting",
+                    name:"Dogfighting".localize("game topic"),
+                    genreWeightings: [1, 0.7, 0.7, 1, 1, 1],
+                    audienceWeightings: [0.7, 0.8, 1]
                 }, {
-                	id:"Beat them up because they suck lotz lol", //The ID won't show, I'm making a different ID to fix potential compatability errors with Expansion Pack by DzjengisKhan.
-                	name:"Beat em up".localize("game topic"),
-                	genreWeightings: [1, 0.7, 0.8, 0.6, 0.6, 1],
-                	audienceWeightings: [0.7, 1, 1]
+                    id:"Beat them up because they suck lotz lol", //The ID won't show, I'm making a different ID to fix potential compatability errors with Expansion Pack by DzjengisKhan.
+                    name:"Beat em up".localize("game topic"),
+                    genreWeightings: [1, 0.7, 0.8, 0.6, 0.6, 1],
+                    audienceWeightings: [0.7, 1, 1]
                 }, {
                 }]);
         };
