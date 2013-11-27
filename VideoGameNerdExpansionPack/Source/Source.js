@@ -54,7 +54,7 @@ var TheNerdExpPack = {};
         /*  */
                 
         /* Topics */
-        NerdExpPack.addTopic = function () {
+        TheNerdExpPack.addTopic = function () {
                 GDT.addTopics([
                 {
                     id: "Tower Defence",
@@ -267,7 +267,7 @@ var TheNerdExpPack = {};
         /*  */ 
         
         /* Researches */
-        NerdExpPack.addResearch = function () {
+        TheNerdExpPack.addResearch = function () {
         /* Gameplay */	
         GDT.addResearchItem(
 	{
