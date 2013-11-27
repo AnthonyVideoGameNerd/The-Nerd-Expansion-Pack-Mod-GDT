@@ -202,72 +202,72 @@ var NerdExpPack = {};
                     genreWeightings: [1, 0.7, 0.8, 0.6, 0.6, 1],
                     audienceWeightings: [0.7, 1, 1]
                 }, {
-                	id:"College Sim", // Request by Venemous/turntablelover
-                	name:"College Sim".localize("game topic"),
-                	genreWeightings: [0.7, 0.8, 0.8, 1, 0.7, 1],
-                	audienceWeightings: [0.8, 1, 0.8]
+                    id:"College Sim", // Request by Venemous/turntablelover
+                    name:"College Sim".localize("game topic"),
+                    genreWeightings: [0.7, 0.8, 0.8, 1, 0.7, 1],
+                    audienceWeightings: [0.8, 1, 0.8]
                 }, {
-                	id:"Hamster Sim", //Request by Venemous/turntablelover
-                	name:"Hamster Sim".localize("game topic"),
-                	genreWeightings: [0.7, 0.8, 0.8, 1, 0.7, 1],
-                	audienceWeightings: [1, 1, 0.8]
+                    id:"Hamster Sim", //Request by Venemous/turntablelover
+                    name:"Hamster Sim".localize("game topic"),
+                    genreWeightings: [0.7, 0.8, 0.8, 1, 0.7, 1],
+                    audienceWeightings: [1, 1, 0.8]
                 }, {
-                	id:"World's End",
-                	name:"World's End".localize("game topic"),
-                	genreWeightings: [0.8, 0.9, 0.8, 1, 0.7, 1],
-                	audienceWeightings: [0.6, 0.6, 1]
+                    id:"World's End",
+                    name:"World's End".localize("game topic"),
+                    genreWeightings: [0.8, 0.9, 0.8, 1, 0.7, 1],
+                    audienceWeightings: [0.6, 0.6, 1]
                 }, {
-                	id:"Magic",
-                	name:"Magic".localize("game topic"),
-                	genreWeightings: [0.9, 0.7, 1, 1, 0.7, 1],
-                	audienceWeightings: [0.9, 1, 0.7]
+                    id:"Magic",
+                    name:"Magic".localize("game topic"),
+                    genreWeightings: [0.9, 0.7, 1, 1, 0.7, 1],
+                    audienceWeightings: [0.9, 1, 0.7]
                 }, {
-                	id:"Murder",
-                	name:"Murder".localize("game topic"),
-                	genreWeightings: [1, 0.9, 0.7, 1, 0.9, 0.6],
-                	audienceWeightings: [0.6, 0.7, 1]
+                    id:"Murder",
+                    name:"Murder".localize("game topic"),
+                    genreWeightings: [1, 0.9, 0.7, 1, 0.9, 0.6],
+                    audienceWeightings: [0.6, 0.7, 1]
                 }, {
-                	id:"Parkour",
-                	name:"Parkour".localize("game topic"),
-                	genreWeightings: [0.8, 1, 0.7, 1, 0.7, 0.6],
-                	audienceWeightings: [0.7, 0.8, 0.9]
+                    id:"Parkour",
+                    name:"Parkour".localize("game topic"),
+                    genreWeightings: [0.8, 1, 0.7, 1, 0.7, 0.6],
+                    audienceWeightings: [0.7, 0.8, 0.9]
                 }, {
-                	id:"Darts",
-                	name:"Darts".localize("game topic"),
-                	genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1],
-                	audienceWeightings: [0.7, 1, 0.7]
+                    id:"Darts",
+                    name:"Darts".localize("game topic"),
+                    genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1],
+                    audienceWeightings: [0.7, 1, 0.7]
                 }, {
-                	id:"Architect",
-                	name:"Architect".localize("game topic"),
-                	genreWeightings: [0.7, 0.6, 0.6, 1, 1, 0.7],
-                	audienceWeightings: [0.6, 0.8, 0.8]
+                    id:"Architect",
+                    name:"Architect".localize("game topic"),
+                    genreWeightings: [0.7, 0.6, 0.6, 1, 1, 0.7],
+                    audienceWeightings: [0.6, 0.8, 0.8]
                 }, {
-                	id:"Colonization",
-                	name:"Colonization".localize("game topic"),
-                	genreWeightings: [0.8, 0.7, 0.8, 1, 1, 0.8],
-                	audienceWeightings: [0.6, 0.8, 0.8]
+                    id:"Colonization",
+                    name:"Colonization".localize("game topic"),
+                    genreWeightings: [0.8, 0.7, 0.8, 1, 1, 0.8],
+                    audienceWeightings: [0.6, 0.8, 0.8]
                 }, {
-                	id:"Author",
-                	name:"Author".localize("game topic"),
-                	genreWeightings: [0.6, 0.6, 0.7, 1, 0.8, 1]
-                	audienceWeightings: [0.8, 0.8, 0.8]
+                    id:"Author",
+                    name:"Author".localize("game topic"),
+                    genreWeightings: [0.6, 0.6, 0.7, 1, 0.8, 1]
+                    audienceWeightings: [0.8, 0.8, 0.8]
                 }, {
-                	id:"Space Wars"
-                	name:"Space Wars".localize("game topic"),
-                	genreWeightings: [1, 0.9, 1, 0.7, 0.9, 0.6]
-                	audienceWeightings: [0.7, 0.7, 1]
+                    id:"Space Wars"
+                    name:"Space Wars".localize("game topic"),
+                    genreWeightings: [1, 0.9, 1, 0.7, 0.9, 0.6]
+                    audienceWeightings: [0.7, 0.7, 1]
                 }, {
-                	id:"Fishing",
-                	name:"Fishing".localize("game topic"),
-                	genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1]
-                	audienceWeightings: [0.6, 1, 0.7]
+                    id:"Fishing",
+                    name:"Fishing".localize("game topic"),
+                    genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1]
+               	    audienceWeightings: [0.6, 1, 0.7]
                 }, {	
                 }]);
         };
         /*  */ 
         
         /* Researches */
-        ExpPack.addResearch = function () {
+        NerdExpPack.addResearch = function () {
         /* Gameplay */	
         GDT.addResearchItem(
 	{
@@ -280,37 +280,37 @@ var NerdExpPack = {};
 		category: "Gameplay",
 		categoryDisplayName: "Gameplay".localize()
 	});
-	      GDT.addResearchItem(
-	      	{
-	      		id:"Basic Holographic Tech",
-	      		name: "Basic Holographic Tech".localize(),
-	      		v: 8,
-	      		canResearch: function (company) {
-	      			return LevelCalculator.getMissionLevel('Gameplay') > 5
-	      		},
-	      		category: "Gameplay",
-	      		categoryDisplayName: "Gameplay".localize()
-	      	});
-	      GDT.addResearchItem(
-	      	{
-	      		id:"Advanced Holograpic Tech",
-	      		name: "Advanced Holographic Tech".localize(),
-	      		v: 10,
-	      		canResearch: function (company) {
-	      			return LevelCalculator.getMissionLevel('Gameplay') > 6
-	      		},
-	      		category: "Gameplay",
-	      		categoryDisplayName: "Gameplay".localize(),
-	      	});
-	      	/* Graphics */
-	      	GDT.addResearchItem(
-	      		{
-	      			id:"4D Graphics"
-	      			name: "4D Graphics".localize(),
-	      			v: 14,
-	      			canResearch: function (company) {
-	      				return LevelCalculator.getMissionLevel('Graphics') > 8
-	      			},
-	      			caregory: "Graphics",
-	      			categoryDisplayName: "Graphics".localize(),
-	      		});
+	 GDT.addResearchItem(
+	 {
+	      	id:"Basic Holographic Tech",
+	      	name: "Basic Holographic Tech".localize(),
+	      	v: 8,
+	      	canResearch: function (company) {
+	      		return LevelCalculator.getMissionLevel('Gameplay') > 5
+	        },
+	      	category: "Gameplay",
+	      	categoryDisplayName: "Gameplay".localize()
+	 });
+	  GDT.addResearchItem(
+	  {
+	      	id:"Advanced Holograpic Tech",
+	      	name: "Advanced Holographic Tech".localize(),
+	      	v: 10,
+	      	canResearch: function (company) {
+	      		return LevelCalculator.getMissionLevel('Gameplay') > 6
+	      	},
+	      	category: "Gameplay",
+	      	categoryDisplayName: "Gameplay".localize(),
+	 });
+	 /* Graphics */
+	 GDT.addResearchItem(
+	   {
+	      	id:"4D Graphics"
+	      	name: "4D Graphics".localize(),
+	      	v: 14,
+	      	canResearch: function (company) {
+	      		return LevelCalculator.getMissionLevel('Graphics') > 8
+	      	},
+	      	caregory: "Graphics",
+	      	categoryDisplayName: "Graphics".localize(),
+	    });
