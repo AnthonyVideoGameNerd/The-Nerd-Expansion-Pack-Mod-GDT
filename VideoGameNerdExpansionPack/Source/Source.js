@@ -1,7 +1,7 @@
-var NerdExpPack = {};
+var TheNerdExpPack = {};
 (function () { 
          /* Events */
-        NerdExpPack.addEventSndTrck = function () {
+        TheNerdExpPack.addEventSndTrck = function () {
                 var eventId = "21212121-0001-0001-0001-ANTHONYVGNERD";
                 
                 var sndTrck = {
