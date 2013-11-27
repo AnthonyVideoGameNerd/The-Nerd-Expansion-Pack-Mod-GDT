@@ -212,6 +212,56 @@ var NerdExpPack = {};
                 	genreWeightings: [0.7, 0.8, 0.8, 1, 0.7, 1],
                 	audienceWeightings: [1, 1, 0.8]
                 }, {
+                	id:"World's End",
+                	name:"World's End".localize("game topic"),
+                	genreWeightings: [0.8, 0.9, 0.8, 1, 0.7, 1],
+                	audienceWeightings: [0.6, 0.6, 1]
+                }, {
+                	id:"Magic",
+                	name:"Magic".localize("game topic"),
+                	genreWeightings: [0.9, 0.7, 1, 1, 0.7, 1],
+                	audienceWeightings: [0.9, 1, 0.7]
+                }, {
+                	id:"Murder",
+                	name:"Murder".localize("game topic"),
+                	genreWeightings: [1, 0.9, 0.7, 1, 0.9, 0.6],
+                	audienceWeightings: [0.6, 0.7, 1]
+                }, {
+                	id:"Parkour",
+                	name:"Parkour".localize("game topic"),
+                	genreWeightings: [0.8, 1, 0.7, 1, 0.7, 0.6],
+                	audienceWeightings: [0.7, 0.8, 0.9]
+                }, {
+                	id:"Darts",
+                	name:"Darts".localize("game topic"),
+                	genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1],
+                	audienceWeightings: [0.7, 1, 0.7]
+                }, {
+                	id:"Architect",
+                	name:"Architect".localize("game topic"),
+                	genreWeightings: [0.7, 0.6, 0.6, 1, 1, 0.7],
+                	audienceWeightings: [0.6, 0.8, 0.8]
+                }, {
+                	id:"Colonization",
+                	name:"Colonization".localize("game topic"),
+                	genreWeightings: [0.8, 0.7, 0.8, 1, 1, 0.8],
+                	audienceWeightings: [0.6, 0.8, 0.8]
+                }, {
+                	id:"Author",
+                	name:"Author".localize("game topic"),
+                	genreWeightings: [0.6, 0.6, 0.7, 1, 0.8, 1]
+                	audienceWeightings: [0.8, 0.8, 0.8]
+                }, {
+                	id:"Space Wars"
+                	name:"Space Wars".localize("game topic"),
+                	genreWeightings: [1, 0.9, 1, 0.7, 0.9, 0.6]
+                	audienceWeightings: [0.7, 0.7, 1]
+                }, {
+                	id:"Fishing",
+                	name:"Fishing".localize("game topic"),
+                	genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1]
+                	audienceWeightings: [0.6, 1, 0.7]
+                }, {	
                 }]);
         };
         /*  */ 
