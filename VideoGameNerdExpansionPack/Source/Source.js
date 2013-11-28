@@ -261,6 +261,11 @@ var TheNerdExpPack = {};
                     name:"Fishing".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1]
                	    audienceWeightings: [0.6, 1, 0.7]
+                }, {
+                	id:"Zookeeping",
+                	name:"Zookeeping".localize("game topic"),
+                	genreWeightings: [0.7, 0.9, 0.6, 1, 0.7, 1]
+                	audienceWeightings: [1, 0.9, 0.8]
                 }, {	
                 }]);
         };
