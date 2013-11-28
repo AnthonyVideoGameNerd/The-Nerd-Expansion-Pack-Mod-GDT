@@ -319,3 +319,14 @@ var TheNerdExpPack = {};
 	      	caregory: "Graphics",
 	      	categoryDisplayName: "Graphics".localize(),
 	    });
+	     GDT.addResearchItem(
+	     {
+	      	id:"UnReal Graphics"
+	      	name: "UnReal Graphics".localize(),
+	      	v: 14,
+	      	canResearch: function (company) {
+	      		return LevelCalculator.getMissionLevel('Graphics') > 8
+	      	},
+	      	caregory: "Graphics",
+	      	categoryDisplayName: "Graphics".localize(),
+	    });
