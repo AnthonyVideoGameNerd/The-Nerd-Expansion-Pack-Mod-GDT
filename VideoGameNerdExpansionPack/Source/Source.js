@@ -249,23 +249,43 @@ var TheNerdExpPack = {};
                 }, {
                     id:"Author",
                     name:"Author".localize("game topic"),
-                    genreWeightings: [0.6, 0.6, 0.7, 1, 0.8, 1]
+                    genreWeightings: [0.6, 0.6, 0.7, 1, 0.8, 1],
                     audienceWeightings: [0.8, 0.8, 0.8]
                 }, {
                     id:"Space Wars"
                     name:"Space Wars".localize("game topic"),
-                    genreWeightings: [1, 0.9, 1, 0.7, 0.9, 0.6]
+                    genreWeightings: [1, 0.9, 1, 0.7, 0.9, 0.6],
                     audienceWeightings: [0.7, 0.7, 1]
                 }, {
                     id:"Fishing",
                     name:"Fishing".localize("game topic"),
-                    genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1]
+                    genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1],
                	    audienceWeightings: [0.6, 1, 0.7]
                 }, {
                 	id:"Zookeeping",
                 	name:"Zookeeping".localize("game topic"),
-                	genreWeightings: [0.7, 0.9, 0.6, 1, 0.7, 1]
+                	genreWeightings: [0.7, 0.9, 0.6, 1, 0.7, 1],
                 	audienceWeightings: [1, 0.9, 0.8]
+                }, {
+                	id:"Monsters",
+                	name:"Monsters".localize("game topic"),
+                	genreWeightings: [0.9, 0.9, 1, 0.7, 0.7, 1],
+                	audienceWeightings: [0.8, 1, 0.8]
+                }, {
+                	id:"Edumacacional",
+                	name:"Educational".localize("game topic"),
+                	genreWeightings: [0.7, 0.7, 0.7 ,0.7 ,0.7, 1],
+                	audienceWeightings: [1, 1, 0.7]
+                }, {
+                	id:"Christmas/X-mas",
+                	name:"Christmas/X-mas".localize("game topic"),
+                	genreWeightings: [0.7, 0.7, 0.7, 0.7 ,0.7, 1],
+                	audienceWeightings: [1, 1, 0.7]
+                }, {
+                	id:"Cleaning",
+                	name:"Cleaning".localize("game topic"),
+                	genreWeightings: [0.7, 0.7, 0.7, 0.7, 0.7, 1],
+                	audienceWeightings: [1, 1, 0.7]
                 }, {	
                 }]);
         };
