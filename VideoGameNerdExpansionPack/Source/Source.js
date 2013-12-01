@@ -23,8 +23,7 @@ var TheNerdExpPack = {};
                                         options: ["Sign the contract", "Don't make it"]
                                 });
                                 
-                        },
-                        },complete: function (decision) {
+                        }, complete: function (decision) {
                                 var company = GameManager.company;
 
                                 if (decision === 0) {
@@ -184,7 +183,7 @@ var TheNerdExpPack = {};
                 }, {
                     id:"Time Travel",
                     name:"Time Travel".localize("game topic"),
-                    genreWeightings: {0.8, 0.9, 0.8, 1, 0.7, 1],
+                    genreWeightings: [0.8, 0.9, 0.8, 1, 0.7, 1],
                     audienceWeightings: [0.7, 1, 1]
                 }, {
                     id:"Dinosaurs",
@@ -286,7 +285,6 @@ var TheNerdExpPack = {};
                 	name:"Cleaning".localize("game topic"),
                 	genreWeightings: [0.7, 0.7, 0.7, 0.7, 0.7, 1],
                 	audienceWeightings: [1, 1, 0.7]
-                }, {	
                 }]);
         };
         /*  */ 
@@ -350,3 +348,5 @@ var TheNerdExpPack = {};
 	      	caregory: "Graphics",
 	      	categoryDisplayName: "Graphics".localize(),
 	    });
+        };
+});
