@@ -285,6 +285,11 @@ var TheNerdExpPack = {};
                 	name:"Cleaning".localize("game topic"),
                 	genreWeightings: [0.7, 0.7, 0.7, 0.7, 0.7, 1],
                 	audienceWeightings: [1, 1, 0.7]
+                }, {
+                	id:"PixelGames",
+                	name:"Pixel Games".localize("game topic"),
+                	genreWeightings: [1, 0.8, 0.9, 0.8, 1, 1],
+                	audienceWeightings: [0.9, 1, 1]
                 }]);
         };
         /*  */ 
