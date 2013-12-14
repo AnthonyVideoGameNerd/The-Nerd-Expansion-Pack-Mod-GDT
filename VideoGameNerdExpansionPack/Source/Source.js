@@ -353,5 +353,16 @@ var TheNerdExpPack = {};
 	      	caregory: "Graphics",
 	      	categoryDisplayName: "Graphics".localize(),
 	    });
+	    GDT.addResearchItem(
+	  {
+	      	id:"Destructible Terrain",
+	      	name: "Destructible Terrain".localize(),
+	      	v: 8,
+	      	canResearch: function (company) {
+	      		return LevelCalculator.getMissionLevel('Gameplay') > 7
+	      	},
+	      	category: "Gameplay",
+	      	categoryDisplayName: "Gameplay".localize(),
+	 });
         };
 });
