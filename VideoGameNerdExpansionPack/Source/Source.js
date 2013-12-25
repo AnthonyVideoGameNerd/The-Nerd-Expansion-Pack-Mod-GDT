@@ -355,8 +355,8 @@ var TheNerdExpPack = {};
 	    });
 	    GDT.addResearchItem(
 	  {
-	      	id:"Destructible Terrain",
-	      	name: "Destructible Terrain".localize(),
+	      	id:"Destructable Terrain",
+	      	name: "Destructable Terrain".localize(),
 	      	v: 8,
 	      	canResearch: function (company) {
 	      		return LevelCalculator.getMissionLevel('Gameplay') > 7
