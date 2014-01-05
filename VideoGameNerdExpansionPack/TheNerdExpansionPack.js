@@ -1,4 +1,4 @@
-(function () {
+       (function () {
 	var ready = function () {
 		
 	/* Adds topics to the game 			*/	
@@ -21,7 +21,13 @@
 	var error = function () {
 	};
 
-	GDT.loadJs([
-	'mods/VideoGameNerdExpansionPack/source/source.js',
-		], ready, error);
+	GDT.loadJs(['mods/gdt-modAPI/helpers/checks.js',
+	'mods/gdt-modAPI/api/persistence.js',
+	'mods/gdt-modAPI/api/events.js',
+	'mods/gdt-modAPI/api/platforms.js',
+	'mods/gdt-modAPI/api/topics.js',
+	'mods/gdt-modAPI/api/research.js',
+	'mods/gdt-modAPI/examples/examples.js',
+	'mods/VideoGameNerdExpansionPack/Source/Source.js',
+	], ready, error);
 })();
