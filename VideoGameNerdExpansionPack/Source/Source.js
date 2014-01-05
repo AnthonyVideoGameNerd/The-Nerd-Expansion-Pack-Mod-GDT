@@ -106,188 +106,188 @@ var TheNerdExpPack = {};
                     genreWeightings: [0.9, 1, 0.7, 1, 1, 0.8],
                     audienceWeightings: [1, 1, 0.9]
                 }, {
-                    id:"Tower Building",
+                    id: "Tower Building",
                     name: "Tower Building".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 0.9, 1],
                     audienceWeightings: [1, 1, 0.7]
                 }, {
-                    id:"Construction",
+                    id: "Construction",
                     name: "Construction".localize("game topic"),
                     genreWeightings: [0.6, 0.7, 0.6, 1, 0.8, 1],
                     audienceWeightings: [0.8, 1, 0.7]
                 }, {
-                    id:"Playing God",
+                    id: "Playing God",
                     name: "God".localize("game topic"),
                     genreWeightings: [1, 0.8, 0.7, 1, 1, 1],
                     audienceWeightings: [0.6, 0.7, 1]
                 }, {
-                    id:"Mining",
-                    name:"Mining".localize("game topic"),
+                    id: "Mining",
+                    name: "Mining".localize("game topic"),
                     genreWeightings: [0.7, 0.7, 0.6, 1, 1, 1],
                     audienceWeightings: [0.8, 1, 0.7]
                 }, {
-                    id:"Digging",
-                    name:"Digging".localize("game topic"),
+                    id: "Digging",
+                    name: "Digging".localize("game topic"),
                     genreWeightings: [0.7, 0.7, 0.6, 1, 1, 1],
                     audienceWeightings: [0.8, 1, 0.7]
                 }, {
-                    id:"Tycoon Game",
-                    name:"Tycoon".localize("game topic"),
+                    id: "Tycoon Game",
+                    name: "Tycoon".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 1, 1],
                     audienceWeightings: [0.9, 1, 0.9]
                 }, {
-                    id:"Crying", // Request by Wayss
-                    name:"Crying".localize("game topic"),
+                    id: "Crying", // Request by Wayss
+                    name: "Crying".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 0.6, 1],
                     audienceWeightings: [0.7, 0.7, 0.7]
                 }, {
-                    id:"Guitar",
-                    name:"Guitar".localize("game topic"),
+                    id: "Guitar",
+                    name: "Guitar".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 1, 1],
                     audienceWeightings: [1, 1, 0.8]
                 }, {
-                    id:"Indie-Horror",
-                    name:"Indie-Horror".localize("game topic"),
+                    id: "Indie-Horror",
+                    name: "Indie-Horror".localize("game topic"),
                     genreWeightings: [1, 1, 0.8, 0.8, 0.7, 0.7],
                     audienceWeightings: [0.6, 0.7, 1]
                 }, {
-                    id:"Heist",
-                    name:"Heist".localize("game topic"),
+                    id: "Heist",
+                    name: "Heist".localize("game topic"),
                     genreWeightings: [1, 0.8, 0.9, 1, 1, 0.7],
                     audienceWeightings: [0.6, 0.6, 1]
                 }, {
-                    id:"Police",
+                    id: "Police",
                     name:"Police".localize("game topic"),
                     genreWeightings: [1, 0.8, 0.9, 1, 1, 0.7],
                     audienceWeightings: [0.7, 0.7, 1]
                 }, {
-                    id:"D&D Tabletop",
-                    name:"D&D Tabletop".localize("game topic"),
+                    id: "D&D Tabletop",
+                    name: "D&D Tabletop".localize("game topic"),
                     genreWeightings: [0.8, 0.8, 1,],
                     audienceWeightings: [0.6, 0.6, 1]
                 }, {
-                    id:"Grand Theft",
-                    name:"Grand Theft".localize("game topic"),
+                    id: "Grand Theft",
+                    name: "Grand Theft".localize("game topic"),
                     genreWeightings: [1, 0.9, 0.7, 1, 0.7, 1],
                     audienceWeightings: [0.6, 0.6, 1]
                 }, {
-                    id:"Arcade Game",
-                    name:"Arcade".localize("game topic"),
+                    id: "Arcade Game",
+                    name: "Arcade".localize("game topic"),
                     genreWeightings: [0.8 ,0.8 ,0.8, 0.8, 0.8, 1],
                     audienceWeightings: [1, 1, 1]
                 }, {
-               	    id:"Dungeon Crawler",
-               	    name:"Dungeon Crawler".localize("game topic"),
+               	    id: "Dungeon Crawler",
+               	    name: "Dungeon Crawler".localize("game topic"),
                	    genreWeightings: [0.8, 0.9, 1, 1, 0.8, 0.9],
                	    audienceWeightings: [0.7, 0.9, 0.9]
                 }, {
-                    id:"Time Travel",
-                    name:"Time Travel".localize("game topic"),
+                    id: "Time Travel",
+                    name: "Time Travel".localize("game topic"),
                     genreWeightings: [0.8, 0.9, 0.8, 1, 0.7, 1],
                     audienceWeightings: [0.7, 1, 1]
                 }, {
-                    id:"Dinosaurs",
-                    name:"Dinosaurs".localize("game topic"),
+                    id: "Dinosaurs",
+                    name: "Dinosaurs".localize("game topic"),
                     genreWeightings: [1, 0.9, 0.8, 0.9, 0.8, 1],
                     audienceWeightings: [1, 0.9, 0.9]
                 }, {
-                    id:"Dogfighting",
-                    name:"Dogfighting".localize("game topic"),
+                    id: "Dogfighting",
+                    name: "Dogfighting".localize("game topic"),
                     genreWeightings: [1, 0.7, 0.7, 1, 1, 1],
                     audienceWeightings: [0.7, 0.8, 1]
                 }, {
-                    id:"Beat them up because they suck lotz lol", //The ID won't show, I'm making a different ID to fix potential compatability errors with Expansion Pack by DzjengisKhan.
-                    name:"Beat em up".localize("game topic"),
+                    id: "Beat them up because they suck lotz lol", //The ID won't show, I'm making a different ID to fix potential compatability errors with Expansion Pack by DzjengisKhan.
+                    name: "Beat em up".localize("game topic"),
                     genreWeightings: [1, 0.7, 0.8, 0.6, 0.6, 1],
                     audienceWeightings: [0.7, 1, 1]
                 }, {
-                    id:"College Sim", // Request by Venemous/turntablelover
-                    name:"College Sim".localize("game topic"),
+                    id: "College Sim", // Request by Venemous/turntablelover
+                    name: "College Sim".localize("game topic"),
                     genreWeightings: [0.7, 0.8, 0.8, 1, 0.7, 1],
                     audienceWeightings: [0.8, 1, 0.8]
                 }, {
-                    id:"Hamster Sim", //Request by Venemous/turntablelover
-                    name:"Hamster Sim".localize("game topic"),
+                    id: "Hamster Sim", //Request by Venemous/turntablelover
+                    name: "Hamster Sim".localize("game topic"),
                     genreWeightings: [0.7, 0.8, 0.8, 1, 0.7, 1],
                     audienceWeightings: [1, 1, 0.8]
                 }, {
-                    id:"World's End",
-                    name:"World's End".localize("game topic"),
+                    id: "World's End",
+                    name: "World's End".localize("game topic"),
                     genreWeightings: [0.8, 0.9, 0.8, 1, 0.7, 1],
                     audienceWeightings: [0.6, 0.6, 1]
                 }, {
-                    id:"Magic",
-                    name:"Magic".localize("game topic"),
+                    id: "Magic",
+                    name: "Magic".localize("game topic"),
                     genreWeightings: [0.9, 0.7, 1, 1, 0.7, 1],
                     audienceWeightings: [0.9, 1, 0.7]
                 }, {
-                    id:"Murder",
-                    name:"Murder".localize("game topic"),
+                    id: "Murder",
+                    name: "Murder".localize("game topic"),
                     genreWeightings: [1, 0.9, 0.7, 1, 0.9, 0.6],
                     audienceWeightings: [0.6, 0.7, 1]
                 }, {
-                    id:"Parkour",
-                    name:"Parkour".localize("game topic"),
+                    id: "Parkour",
+                    name: "Parkour".localize("game topic"),
                     genreWeightings: [0.8, 1, 0.7, 1, 0.7, 0.6],
                     audienceWeightings: [0.7, 0.8, 0.9]
                 }, {
-                    id:"Darts",
-                    name:"Darts".localize("game topic"),
+                    id: "Darts",
+                    name: "Darts".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1],
                     audienceWeightings: [0.7, 1, 0.7]
                 }, {
-                    id:"Architect",
-                    name:"Architect".localize("game topic"),
+                    id: "Architect",
+                    name: "Architect".localize("game topic"),
                     genreWeightings: [0.7, 0.6, 0.6, 1, 1, 0.7],
                     audienceWeightings: [0.6, 0.8, 0.8]
                 }, {
-                    id:"Colonization",
-                    name:"Colonization".localize("game topic"),
+                    id: "Colonization",
+                    name: "Colonization".localize("game topic"),
                     genreWeightings: [0.8, 0.7, 0.8, 1, 1, 0.8],
                     audienceWeightings: [0.6, 0.8, 0.8]
                 }, {
-                    id:"Author",
-                    name:"Author".localize("game topic"),
+                    id: "Author",
+                    name: "Author".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.7, 1, 0.8, 1],
                     audienceWeightings: [0.8, 0.8, 0.8]
                 }, {
-                    id:"Space Wars"
-                    name:"Space Wars".localize("game topic"),
+                    id: "Space Wars"
+                    name: "Space Wars".localize("game topic"),
                     genreWeightings: [1, 0.9, 1, 0.7, 0.9, 0.6],
                     audienceWeightings: [0.7, 0.7, 1]
                 }, {
-                    id:"Fishing",
-                    name:"Fishing".localize("game topic"),
+                    id: "Fishing",
+                    name: "Fishing".localize("game topic"),
                     genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1],
                	    audienceWeightings: [0.6, 1, 0.7]
                 }, {
-                	id:"Zookeeping",
-                	name:"Zookeeping".localize("game topic"),
+                	id: "Zookeeping",
+                	name: "Zookeeping".localize("game topic"),
                 	genreWeightings: [0.7, 0.9, 0.6, 1, 0.7, 1],
                 	audienceWeightings: [1, 0.9, 0.8]
                 }, {
-                	id:"Monsters",
-                	name:"Monsters".localize("game topic"),
+                	id: "Monsters",
+                	name: "Monsters".localize("game topic"),
                 	genreWeightings: [0.9, 0.9, 1, 0.7, 0.7, 1],
                 	audienceWeightings: [0.8, 1, 0.8]
                 }, {
-                	id:"Edumacacional",
-                	name:"Educational".localize("game topic"),
+                	id: "Edumacacional",
+                	name: "Educational".localize("game topic"),
                 	genreWeightings: [0.7, 0.7, 0.7 ,0.7 ,0.7, 1],
                 	audienceWeightings: [1, 1, 0.7]
                 }, {
-                	id:"Christmas/X-mas",
-                	name:"Christmas/X-mas".localize("game topic"),
+                	id: "Christmas/X-mas",
+                	name: "Christmas/X-mas".localize("game topic"),
                 	genreWeightings: [0.7, 0.7, 0.7, 0.7 ,0.7, 1],
                 	audienceWeightings: [1, 1, 0.7]
                 }, {
-                	id:"Cleaning",
-                	name:"Cleaning".localize("game topic"),
+                	id: "Cleaning",
+                	name: "Cleaning".localize("game topic"),
                 	genreWeightings: [0.7, 0.7, 0.7, 0.7, 0.7, 1],
                 	audienceWeightings: [1, 1, 0.7]
                 }, {
-                	id:"PixelGames",
-                	name:"Pixel Games".localize("game topic"),
+                	id: "PixelGames",
+                	name: "Pixel Games".localize("game topic"),
                 	genreWeightings: [1, 0.8, 0.9, 0.8, 1, 1],
                 	audienceWeightings: [0.9, 1, 1]
                 }]);
@@ -310,7 +310,7 @@ var TheNerdExpPack = {};
 	});
 	 GDT.addResearchItem(
 	 {
-	      	id:"Basic Holographic Tech",
+	      	id: "Basic Holographic Tech",
 	      	name: "Basic Holographic Tech".localize(),
 	      	v: 8,
 	      	canResearch: function (company) {
@@ -321,7 +321,7 @@ var TheNerdExpPack = {};
 	 });
 	  GDT.addResearchItem(
 	  {
-	      	id:"Advanced Holograpic Tech",
+	      	id: "Advanced Holograpic Tech",
 	      	name: "Advanced Holographic Tech".localize(),
 	      	v: 10,
 	      	canResearch: function (company) {
@@ -333,7 +333,7 @@ var TheNerdExpPack = {};
 	 /* Graphics */
 	 GDT.addResearchItem(
 	   {
-	      	id:"4D Graphics"
+	      	id: "4D Graphics"
 	      	name: "4D Graphics".localize(),
 	      	v: 14,
 	      	canResearch: function (company) {
@@ -344,7 +344,7 @@ var TheNerdExpPack = {};
 	    });
 	     GDT.addResearchItem(
 	     {
-	      	id:"UnReal Graphics"
+	      	id: "UnReal Graphics"
 	      	name: "UnReal Graphics".localize(),
 	      	v: 14,
 	      	canResearch: function (company) {
@@ -355,7 +355,7 @@ var TheNerdExpPack = {};
 	    });
 	    GDT.addResearchItem(
 	  {
-	      	id:"Destructable Terrain",
+	      	id: "Destructable Terrain",
 	      	name: "Destructable Terrain".localize(),
 	      	v: 8,
 	      	canResearch: function (company) {
