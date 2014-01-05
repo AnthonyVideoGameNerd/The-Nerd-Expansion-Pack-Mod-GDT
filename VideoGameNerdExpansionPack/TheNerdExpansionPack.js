@@ -1,20 +1,15 @@
-       (function () {
-	var ready = function () {
-		
-	/* Adds topics to the game 			*/	
+ï»¿(function () {
+	var ready = function () {		
+	/* Adds topics to the game 			*/
 		TheNerdExpPack.addTopic();
-	/*									*/	
-	
-	/* Adds platforms to the game 		*/	
-
 	/*									*/
-		
+	
 	/* Adds events to the game 			*/	
 		TheNerdExpPack.addEventSndTrck();
 	/*									*/
 	
-	/* Adds researches to the game		*/
-		TheNerdExpPack.addResearch();
+    	/* Adds researches to the game			*/
+		TheNerdExpPack.addResearchItem();
 	/*									*/
 	};
 
@@ -30,4 +25,4 @@
 	'mods/gdt-modAPI/examples/examples.js',
 	'mods/VideoGameNerdExpansionPack/Source/Source.js',
 	], ready, error);
-})();
+})()
